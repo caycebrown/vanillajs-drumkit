@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Drum Kit</title>
+</head>
+<body>
+
+    <div class="row">
+        <div data-key="119" class="key">
+            <kbd>W</kbd>
+            <span>Tom</span>
+        </div>
+        <div data-key="97" class="key">
+            <kbd>A</kbd>
+            <span>Boom</span>
+        </div>
+        <div data-key="115" class="key">
+            <kbd>S</kbd>
+            <span>HiHat</span>
+        </div>
+        <div data-key="100" class="key">
+            <kbd>D</kbd>
+            <span>Clap</span>
+        </div>
+        <div data-key="102" class="key">
+            <kbd>F</kbd>
+            <span>Kick</span>
+        </div>
+        <div data-key="103" class="key">
+            <kbd>G</kbd>
+            <span>OpenHat</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div data-key="104" class="key">
+            <kbd>H</kbd>
+            <span>Ride</span>
+        </div>
+        <div data-key="106" class="key">
+            <kbd>J</kbd>
+            <span>Snare</span>
+        </div>
+        <div data-key="107" class="key">
+            <kbd>K</kbd>
+            <span>Tink</span>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener("keypress", function(e) {
+            console.log(e.keyCode)
+        })
+    </script>
+    
+</body>
+</html>

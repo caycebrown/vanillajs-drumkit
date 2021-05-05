@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.key {
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
